@@ -4,9 +4,9 @@ This is the Redox keyboard I have made from scratch. The frame is made from 3d p
 
 While I refer to this project as finished I intend to continue developing it. The things I am looking to implement in the future are:
 
--A new layer that gives access to better motions 
--Setting up some macros that can automate repetive tasks
--~~buying new keycaps (filiment 3d printed keycaps have turned out to be quite scratchy)~~
+-A new layer that gives access to better motions <br />
+-Setting up some macros that can automate repetive tasks <br />
+-~~buying new keycaps (filiment 3d printed keycaps have turned out to be quite scratchy)~~ <br />
 
 ![20230114_123416](https://user-images.githubusercontent.com/111256162/212447383-ab533fd3-095f-4bb4-a475-d8b823ab701c.jpg)
 
