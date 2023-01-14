@@ -6,7 +6,8 @@ While I refer to this project as finished I intend to continue developing it. Th
 
 -A new layer that gives access to better motions 
 -Setting up some macros that can automate repetive tasks
--buying new keycaps (filiment 3d printed keycaps are turning out to be quite scratchy)
+-~~buying new keycaps (filiment 3d printed keycaps have turned out to be quite scratchy)~~
+
+![20230114_123416](https://user-images.githubusercontent.com/111256162/212447383-ab533fd3-095f-4bb4-a475-d8b823ab701c.jpg)
 
 
-![20230103_204751](https://user-images.githubusercontent.com/111256162/211129990-1cdaa00b-cbe9-4728-911a-3042710c7e54.jpg)
