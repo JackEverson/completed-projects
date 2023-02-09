@@ -26,8 +26,8 @@ keyboard.modules.append(Layers())
 #easier to see function, empty, and transpartent keys
 XXXXX = KC.NO
 _____ = KC.TRNS
-ToggleNum =  KC.TT(1)
-
+ToggleNum =  KC.TT(2)
+ToggleMotion = KC.TT(1)
 
 keyboard.keymap = [
     [#layer 0: Base layer
@@ -39,10 +39,23 @@ keyboard.keymap = [
 
     KC.LSHIFT, KC.Z,       KC.X,       KC.C,       KC.V,       KC.B,       KC.BSLS,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
-    KC.LCTRL,  KC.LGUI,      XXXXX,   XXXXX,         KC.LALT,    KC.ENTER,   KC.SPACE,                       KC.BSPC, KC.DEL,   ToggleNum,   KC.LEFT,    KC.DOWN,    KC.UP,      KC.RIGHT,
+    KC.LCTRL,  KC.LGUI,      XXXXX,   KC.LALT,      XXXXX,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    ToggleMotion, KC.DEL,   KC.RALT,    ToggleNum,     KC.RGUI,     KC.CTRL,
     ],
 
-    [#layer 1: Numbers and functions layer
+    [#Layer 1: Motions
+    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
+
+    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
+
+    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    KC.LEFT,      KC.DOWN,      KC.UP,     KC.RIGHT,      _____,       _____,
+
+    _____,    _____,      KC.DEL,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
+
+    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
+
+    ],
+
+    [#layer 2: Numbers and functions layer
     KC.ESC,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,       KC.F6,                          KC.F7,    KC.F8,      KC.F9,      KC.F10,     KC.F11,     KC.F12,      KC.MINUS,
 
     KC.TAB,    _____,      _____,      _____,        KC.LPRN,       KC.RPRN,       _____,                        _____,       _____,       KC.P7,      KC.P8,      KC.P9,       KC.PPLS,       _____,
@@ -51,21 +64,7 @@ keyboard.keymap = [
 
     KC.LSHIFT, _____,      _____,      _____,        KC.LABK,       KC.RABK,       _____,                          _____,       _____,       KC.P1,      KC.P2,      KC.P3,     KC.PENT,    _____,
 
-    _____,       _____,    _____,      _____,      KC.LALT,    KC.ENTER,   KC.SPACE,                       _____,       _____,   _____,   KC.P0,    KC.PDOT,    KC.PENT,      _____,
-    ],
-
-
-    [#Layer 2: Motions
-    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
-
-    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
-
-    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
-
-    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
-
-    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
-
+    _____,       _____,    _____,      _____,       _____,       _____,           _____,                       _____,       _____,   _____,   KC.P0,    KC.PDOT,    KC.PENT,      _____,
     ],
 
     [#Layer X: template
