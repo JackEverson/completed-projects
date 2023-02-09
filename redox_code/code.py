@@ -1,4 +1,3 @@
-
 print("Starting") #print statment is for debugging
 
 #importing circuit python "board" ability to use GPIO pins.
@@ -26,8 +25,8 @@ keyboard.modules.append(Layers())
 #easier to see function, empty, and transpartent keys
 XXXXX = KC.NO
 _____ = KC.TRNS
-ToggleNum =  KC.TT(2)
-ToggleMotion = KC.TT(1)
+tog_num =  KC.TT(2)
+tog_move = KC.TT(1)
 
 keyboard.keymap = [
     [#layer 0: Base layer
@@ -39,7 +38,7 @@ keyboard.keymap = [
 
     KC.LSHIFT, KC.Z,       KC.X,       KC.C,       KC.V,       KC.B,       KC.BSLS,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
-    KC.LCTRL,  KC.LGUI,      XXXXX,   KC.LALT,      XXXXX,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    ToggleMotion, KC.DEL,   KC.RALT,    ToggleNum,     KC.RGUI,     KC.CTRL,
+    KC.LCTRL,  KC.LGUI,      XXXXX,   KC.LALT,      XXXXX,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    tog_move, KC.DEL,   KC.RALT,    tog_num,     KC.RGUI,     KC.RCTRL,
     ],
 
     [#Layer 1: Motions
@@ -47,7 +46,7 @@ keyboard.keymap = [
 
     _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
 
-    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    KC.LEFT,      KC.DOWN,      KC.UP,     KC.RIGHT,      _____,       _____,
+    _____,    _____,      _____,      _____,      _____,      _____,       _____,                          _____,    KC.LEFT,      KC.DOWN,      KC.UP,     KC.RGHT,      _____,       _____,
 
     _____,    _____,      KC.DEL,      _____,      _____,      _____,       _____,                          _____,    _____,      _____,      _____,      _____,      _____,       _____,
 
