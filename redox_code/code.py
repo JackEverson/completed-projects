@@ -32,11 +32,11 @@ keyboard.keymap = [
     [#layer 0: Base layer
     KC.ESC,  KC.N1,      KC.N2,      KC.N3,      KC.N4,        KC.N5,      KC.GRAVE,                        KC.PGUP,    KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,      KC.MINUS,
 
-    KC.TAB,    KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,       KC.EQL,                         KC.PGDN,    KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,       KC.LBRC,
+    KC.TAB,    KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,       KC.EQL,                         KC.PGDN,    KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,      KC.BSLS,
 
-    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,       KC.RBRC,                          KC.END,     KC.H,       KC.J,       KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
+    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,        KC.LBRC,                          KC.END,     KC.H,       KC.J,       KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
 
-    KC.LSHIFT, KC.Z,       KC.X,       KC.C,       KC.V,       KC.B,       KC.BSLS,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
+    KC.LSHIFT, KC.Z,       KC.X,       KC.C,       KC.V,       KC.B,       KC.RBRC,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
     KC.LCTRL,  KC.LGUI,      XXXXX,   KC.LALT,      XXXXX,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    tog_move, KC.DEL,   KC.RALT,    tog_num,     KC.RGUI,     KC.RCTRL,
     ],
