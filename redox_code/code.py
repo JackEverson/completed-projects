@@ -63,7 +63,7 @@ keyboard.keymap = [
 
     KC.LSHIFT, _____,      _____,      _____,        KC.LABK,       KC.RABK,       _____,                          _____,       _____,       KC.P1,      KC.P2,      KC.P3,     KC.PENT,    _____,
 
-    _____,       _____,    _____,      _____,       _____,       _____,           _____,                       _____,   _____,  KC.P0,       KC.P0,   tog_num        KC.PENT,      _____,
+    _____,       _____,    _____,      _____,       _____,       _____,           _____,                       _____,   _____,  KC.P0,       KC.P0,   tog_num,        KC.PENT,      _____,
     ],
 
     [#Layer X: template
