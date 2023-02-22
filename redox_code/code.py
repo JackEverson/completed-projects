@@ -25,8 +25,8 @@ keyboard.modules.append(Layers())
 #easier to see function, empty, and transpartent keys
 XXXXX = KC.NO
 _____ = KC.TRNS
-tog_num =  KC.TT(2)
-tog_move = KC.TT(1)
+tog_num =  KC.MO(2)
+tog_move = KC.MO(1)
 
 keyboard.keymap = [
     [#layer 0: Base layer
@@ -38,7 +38,7 @@ keyboard.keymap = [
 
     KC.LSHIFT, KC.Z,       KC.X,       KC.C,       KC.V,       KC.B,       KC.RBRC,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
-    KC.LCTRL,  KC.LGUI,      XXXXX,   KC.LALT,      XXXXX,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    tog_move, KC.DEL,   KC.RALT,    tog_num,     KC.RGUI,     KC.RCTRL,
+    KC.LCTRL,  KC.LGUI,      tog_num,   KC.LALT,      XXXXX,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    tog_move, KC.DEL,   KC.RALT,    tog_num,     KC.RGUI,     KC.RCTRL,
     ],
 
     [#Layer 1: Motions
