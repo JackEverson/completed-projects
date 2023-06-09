@@ -36,7 +36,7 @@ keyboard.keymap = [
 
     KC.LSHIFT, KC.Z,       KC.X,        KC.C,       KC.V,       KC.B,       KC.RBRC,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
-    KC.LCTRL,  KC.LGUI,    tog_lay1,     KC.LALT,      tog_lay1,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    tog_lay1, KC.DEL,   KC.RALT,    tog_lay1,     KC.RGUI,     KC.RCTRL,
+    KC.LCTRL,  tog_lay1,  KC.LGUI,     KC.LALT,      tog_lay1,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    tog_lay1, KC.DEL,   KC.RALT,     KC.RGUI,    tog_lay1,    KC.RCTRL,
     ],
 
     [#Layer 1: Motions
