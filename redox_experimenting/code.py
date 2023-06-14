@@ -38,11 +38,11 @@ keyboard.keymap = [
 
     KC.TAB,    KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,       KC.EQL,                         KC.PGDN,    KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,      KC.BSLS,
 
-    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.HT(KC.F, KC.LSFT),       KC.G,   KC.LBRC,          KC.END,     KC.H,       KC.HT(KC.J, KC.LSFT),       KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
+    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,   KC.LBRC,                            KC.END,     KC.H,      KC.J,        KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
 
     KC.LSHIFT, KC.Z,       KC.X,        KC.C,       KC.V,       KC.B,       KC.RBRC,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
-    KC.LCTRL,  tog_lay2,  KC.LGUI,     KC.LALT,      tog_lay2,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    tog_lay1, KC.DEL,   KC.RALT,     KC.RGUI,    tog_lay2,    KC.RCTRL,
+    KC.LCTRL,  tog_lay2,  KC.LGUI,     KC.LALT,      tog_lay2,      KC.ENTER,   KC.SPACE,       KC.HT(KC.BSPC, tog_lay2), KC.HT(KC.DEL, tog_lay1), KC.DEL,   KC.RALT,     KC.RGUI,    tog_lay2,    KC.RCTRL,
     ],
 
     [#Layer 1: Motions
