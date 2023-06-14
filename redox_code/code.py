@@ -21,6 +21,11 @@ keyboard.diode_orientation = DiodeOrientation.COL2ROW
 from kmk.modules.layers import Layers
 keyboard.modules.append(Layers())
 
+from kmk.modules.holdtap import HoldTap
+holdtap = HoldTap()
+holdtap.tap_time = 300 # can adjust holdtap time if it is an issue
+keyboard.modules.append(holdtap)
+
 #easier to see function, empty, and transpartent keys
 XXXXX = KC.NO
 _____ = KC.TRNS
@@ -33,7 +38,7 @@ keyboard.keymap = [
 
     KC.TAB,    KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,       KC.EQL,                         KC.PGDN,    KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,      KC.BSLS,
 
-    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,        KC.LBRC,                          KC.END,     KC.H,       KC.J,       KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
+    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.HT(KC.F, KC.LSFT),       KC.G,   KC.LBRC,          KC.END,     KC.H,       KC.HT(KC.J, KC.LSFT),       KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
 
     KC.LSHIFT, KC.Z,       KC.X,        KC.C,       KC.V,       KC.B,       KC.RBRC,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
