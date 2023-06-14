@@ -25,6 +25,7 @@ keyboard.modules.append(Layers())
 XXXXX = KC.NO
 _____ = KC.TRNS
 tog_lay1 = KC.MO(1)
+tog_lay2 = KC.MO(2)
 
 keyboard.keymap = [
     [#layer 0: Base layer
@@ -36,7 +37,7 @@ keyboard.keymap = [
 
     KC.LSHIFT, KC.Z,       KC.X,        KC.C,       KC.V,       KC.B,       KC.RBRC,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
-    KC.LCTRL,  tog_lay1,  KC.LGUI,     KC.LALT,      tog_lay1,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    tog_lay1, KC.DEL,   KC.RALT,     KC.RGUI,    tog_lay1,    KC.RCTRL,
+    KC.LCTRL,  tog_lay2,  KC.LGUI,     KC.LALT,      tog_lay2,      KC.ENTER,   KC.SPACE,                       KC.BSPC,    tog_lay1, KC.DEL,   KC.RALT,     KC.RGUI,    tog_lay2,    KC.RCTRL,
     ],
 
     [#Layer 1: Motions
@@ -51,6 +52,20 @@ keyboard.keymap = [
     XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
 
     ],
+
+    [#Layer 2: numbers 
+    KC.RLD,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,       KC.F6,                          KC.F7,    KC.F8,      KC.F9,      KC.F10,     KC.F11,     KC.F12,      KC.MINUS,
+
+    XXXXX,    XXXXX,      KC.UP,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+
+    KC.GRAVE,    KC.N1,   KC.N2,   KC.N3,           KC.N4,   KC.N5,   KC.N6,                                KC.N5,   KC.N6,   KC.N7,        KC.N8,      KC.N9,      KC.N0,       KC.MINUS,    
+
+    XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+
+    XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+
+    ],
+
 
     [#Layer X: template
     XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
