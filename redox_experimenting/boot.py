@@ -1,11 +1,8 @@
-import supervisor
-import board
-
 from kmk.bootcfg import bootcfg
 
 bootcfg(
-#    sense=board.GP0,  # column
-#    source=board.GP8, # row
+    sense=board.GP0,  # column
+    source=board.GP8, # row
     midi=False,
     mouse=False,
     storage=True,

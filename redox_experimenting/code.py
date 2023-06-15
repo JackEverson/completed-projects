@@ -18,9 +18,15 @@ keyboard.row_pins = (board.GP14,board.GP15,board.GP16,board.GP17,board.GP18)
 
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
+# Layers
 from kmk.modules.layers import Layers
 keyboard.modules.append(Layers())
 
+# Mouse keys
+from kmk.modules.mouse_keys import MouseKeys
+keyboard.modules.append(MouseKeys())
+
+# HoldTap
 from kmk.modules.holdtap import HoldTap
 holdtap = HoldTap()
 holdtap.tap_time = 300 # can adjust holdtap time if it is an issue
@@ -42,15 +48,15 @@ keyboard.keymap = [
 
     KC.LSHIFT, KC.Z,       KC.X,        KC.C,       KC.V,       KC.B,       KC.RBRC,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
-    KC.LCTRL,  tog_lay2,  KC.LGUI,     KC.LALT,      tog_lay2,      KC.ENTER,   KC.SPACE,       KC.HT(KC.BSPC, tog_lay2), KC.HT(KC.DEL, tog_lay1), KC.DEL,   KC.RALT,     KC.RGUI,    tog_lay2,    KC.RCTRL,
+    KC.LCTRL,  tog_lay2,  KC.LGUI,     KC.LALT,  KC.LSHIFT,   KC.HT(KC.ENTER, tog_lay2),   KC.SPACE,   KC.BSPC, KC.HT(KC.DEL, tog_lay1), KC.LSHIFT,   KC.RALT,     KC.RGUI,    tog_lay2,    KC.RCTRL,
     ],
 
     [#Layer 1: Motions
     KC.RLD,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,       KC.F6,                          KC.F7,    KC.F8,      KC.F9,      KC.F10,     KC.F11,     KC.F12,      KC.MINUS,
 
-    XXXXX,    XXXXX,      KC.UP,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+    XXXXX,    XXXXX,      KC.MS_UP,      KC.MB_LMB,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
 
-    XXXXX,    KC.LEFT,    KC.DOWN,    KC.RGHT,  XXXXX,      XXXXX,       XXXXX,                          XXXXX,    KC.LEFT,      KC.DOWN,      KC.UP,     KC.RGHT,      XXXXX,       XXXXX,
+    XXXXX,    KC.MS_LEFT,    KC.MS_DOWN,    KC.MS_RIGHT,  KC.MB_RMB,      XXXXX,       XXXXX,                          XXXXX,    KC.LEFT,      KC.DOWN,      KC.UP,     KC.RGHT,      XXXXX,       XXXXX,
 
     XXXXX,    XXXXX,      KC.DEL,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
 
@@ -61,13 +67,13 @@ keyboard.keymap = [
     [#Layer 2: numbers 
     KC.RLD,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,       KC.F6,                          KC.F7,    KC.F8,      KC.F9,      KC.F10,     KC.F11,     KC.F12,      KC.MINUS,
 
-    XXXXX,    XXXXX,      KC.UP,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+    XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
 
     KC.GRAVE,    KC.N1,   KC.N2,   KC.N3,           KC.N4,   KC.N5,   KC.N6,                                KC.N5,   KC.N6,   KC.N7,        KC.N8,      KC.N9,      KC.N0,       KC.MINUS,    
 
-    XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+    KC.LSHIFT,    XXXXX,      KC.DEL,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
 
-    XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+    XXXXX,    XXXXX,      XXXXX,      XXXXX,      KC.LSHIFT,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      KC.LSHIFT,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
 
     ],
 
