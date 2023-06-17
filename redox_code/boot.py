@@ -1,3 +1,10 @@
-import supervisor
+from kmk.bootcfg import bootcfg
 
-supervisor.set_next_stack_limit(4096 + 4096)
+bootcfg(
+    sense=board.GP0,  # column
+    source=board.GP8, # row
+    midi=False,
+    mouse=False,
+    storage=True,
+    usb_id=('KMK Keyboards', 'Badger_redox'),
+)
