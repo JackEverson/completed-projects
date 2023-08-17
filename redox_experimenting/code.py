@@ -42,13 +42,13 @@ keyboard.keymap = [
     [#layer 0: Base layer
     KC.ESC,    KC.N1,      KC.N2,      KC.N3,      KC.N4,        KC.N5,      KC.LGUI,                                    KC.PGUP,    KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,      KC.MINUS,
 
-    KC.TAB,    KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,       KC.LGUI,                                     KC.PGDN,    KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,      KC.BSLS,
+    KC.TAB,    KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,       KC.TAB,                                     KC.PGDN,    KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,      KC.BSLS,
 
-    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,   KC.LALT,                                        KC.END,     KC.H,      KC.J,        KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
+    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,   KC.LCTRL,                                        KC.END,     KC.H,      KC.J,        KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
 
-    KC.LSHIFT, KC.Z,       KC.X,        KC.C,       KC.V,       KC.B,       KC.LCTRL,                                     KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
+    KC.LSHIFT, KC.Z,       KC.X,        KC.C,       KC.V,       KC.B,       KC.LALT,                                     KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
-    KC.LCTRL,  tog_lay2,  KC.GRAVE, KC.EQL,  KC.LSHIFT,  KC.HT(KC.ENTER, tog_lay2),   KC.SPACE,               KC.BSPC, KC.HT(KC.DEL, tog_lay1), KC.LSHIFT,   KC.LBRC, KC.RBRC,    tog_lay2,    KC.RCTRL,
+    KC.LCTRL,  KC.LALT,  KC.GRAVE, KC.EQL,  KC.LSHIFT,  KC.HT(KC.ENTER, tog_lay2),   KC.SPACE,               KC.BSPC, KC.HT(KC.DEL, tog_lay1), KC.LSHIFT,   KC.LBRC, KC.RBRC,    tog_lay2,    KC.RCTRL,
     ],
 
     [#Layer 1: Motions
