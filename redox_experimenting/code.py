@@ -44,7 +44,7 @@ keyboard.keymap = [
 
     KC.TAB,    KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,       KC.TAB,                                     KC.PGDN,    KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,      KC.BSLS,
 
-    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,   KC.LCTRL,                                        KC.END,     KC.H,      KC.J,        KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
+    KC.LCTRL,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,   KC.LCTRL,                                        KC.END,     KC.H,      KC.J,        KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
 
     KC.LSHIFT, KC.Z,       KC.X,        KC.C,       KC.V,       KC.B,       KC.LALT,                                     KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLSH,    KC.RSHIFT,
 
