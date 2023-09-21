@@ -44,36 +44,36 @@ keyboard.keymap = [
 
     KC.TAB,    KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,       KC.EQL,                         KC.PGDN,    KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,      KC.BSLS,
 
-    KC.CAPS,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,   KC.LBRC,                            KC.END,     KC.H,      KC.J,        KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
+    KC.LCTRL,   KC.A,       KC.S,       KC.D,       KC.F,       KC.G,   KC.LBRC,                            KC.END,     KC.H,      KC.J,        KC.K,       KC.L,       KC.SCLN,    KC.QUOTE,
 
     KC.LSHIFT, KC.Z,       KC.X,        KC.C,       KC.V,       KC.B,       KC.RBRC,                         KC.HOME,    KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.UP,    KC.RSHIFT,
 
-    KC.LCTRL,  tog_lay2,  KC.LGUI,     KC.LALT,  KC.LSHIFT,   KC.HT(KC.ENTER, tog_lay2),   KC.SPACE,   KC.BSPC, KC.HT(KC.DEL, tog_lay1), KC.LSHIFT,   KC.SLSH,     KC.LEFT,    KC.DOWN,    KC.UP,
+    KC.LCTRL,  tog_lay2,  KC.LGUI,     KC.LALT,  KC.LSHIFT,   KC.HT(KC.ENTER, tog_lay2),   KC.SPACE,        KC.BSPC, KC.HT(KC.DEL, tog_lay1), KC.LSHIFT,   KC.SLSH,     KC.LEFT,    KC.DOWN,    KC.RIGHT,
     ],
 
-    [#Layer 1: Motions
-    KC.RLD,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,       KC.F6,                          KC.F7,    KC.F8,      KC.F9,      KC.F10,     KC.F11,     KC.F12,      KC.MINUS,
+    [#Layer 1: numpad
+    KC.RLD,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,       XXXXX,                            XXXXX,    KC.F6, KC.F7,    KC.F8,      KC.F9,      KC.F10,          KC.MINUS,
 
-    XXXXX,    XXXXX,      KC.MS_UP,      XXXXX,      KC.MW_UP,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+    XXXXX,  KC.F11,     KC.F12,       XXXXX,       XXXXX,     XXXXX, XXXXX, XXXXX,                             XXXXX,    KC.P7,      KC.P8,      KC.P9,      KC.PMNS,      XXXXX,  XXXXX,
+        
+    KC.CAPS,     XXXXX,   XXXXX,          XXXXX,      XXXXX,     XXXXX,   XXXXX,                               XXXXX,    KC.P4,      KC.P5,      KC.P6,     KC.PPLS,      XXXXX, XXXXX,     
 
-    XXXXX,    KC.MS_LEFT,    KC.MS_DOWN,    KC.MS_RIGHT,  KC.MW_DOWN,      XXXXX,       XXXXX,                          XXXXX,    KC.LEFT,      KC.DOWN,      KC.UP,     KC.RGHT,      XXXXX,       XXXXX,
+    KC.LSHIFT,    XXXXX,      KC.DEL,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,         KC.P1,      KC.P2,      KC.P3,     KC.PENT,   XXXXX,     KC.RSHIFT,
 
-    XXXXX,    XXXXX,      KC.DEL,      XXXXX,      XXXXX,      XXXXX,       XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
-
-    XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      KC.MB_LMB,       KC.MB_RMB,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+    KC.LCTRL,    XXXXX,      KC.LGUI,     KC.LALT,      XXXXX,       XXXXX,        XXXXX,                          XXXXX,    XXXXX,      KC.P0,   KC.P0,      KC.PDOT,      KC.PENT,       XXXXX,
 
     ],
 
     [#Layer 2: numbers 
-    KC.RLD,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,       KC.F6,                          KC.F7,    KC.F8,      KC.F9,      KC.F10,     KC.F11,     KC.F12,      KC.MINUS,
+    KC.RLD,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,       XXXXX,                            XXXXX,    KC.F6, KC.F7,    KC.F8,      KC.F9,      KC.F10,          KC.MINUS,
 
-    KC.TILDE, KC.EXCLAIM, KC.AT,    KC.HASH,    KC.DOLLAR, KC.PERCENT,  XXXXX,                          XXXXX, KC.CIRCUMFLEX,  KC.AMPERSAND, KC.ASTERISK, KC.LEFT_PAREN, KC.RIGHT_PAREN, KC.UNDERSCORE,
+    KC.TILDE, KC.F11,     KC.F12,    KC.HASH,    KC.DOLLAR, KC.PERCENT,  XXXXX,                          XXXXX, KC.CIRCUMFLEX,  KC.AMPERSAND, KC.ASTERISK, KC.LEFT_PAREN, KC.RIGHT_PAREN, KC.UNDERSCORE,
 
     KC.GRAVE,    KC.N1,   KC.N2,   KC.N3,       KC.N4,   KC.N5,   XXXXX,                                XXXXX,   KC.N6,   KC.N7,        KC.N8,      KC.N9,      KC.N0,       KC.MINUS,    
 
     KC.LSHIFT,    XXXXX,      KC.DEL,      XXXXX,     KC.LBRC, KC.RBRC, XXXXX,                          XXXXX,    XXXXX,      XXXXX,      XXXXX,      XXXXX,      KC.EQL,       KC.PLUS,
 
-    XXXXX,    XXXXX,      XXXXX,      XXXXX,      KC.LSHIFT,      XXXXX,       XXXXX,                          KC.BSPC, KC.DEL,      KC.LSHIFT,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
+    KC.LCTRL,     XXXXX,      KC.LGUI,     KC.LALT,     KC.LSHIFT,      XXXXX,       XXXXX,                          KC.BSPC, KC.DEL,      KC.LSHIFT,      XXXXX,      XXXXX,      XXXXX,       XXXXX,
 
     ],
 
