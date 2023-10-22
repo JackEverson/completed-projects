@@ -1,6 +1,6 @@
 # 2% Bongo Keyboard
 
-### PUT PICTURE HERE!!!!!
+![PXL_20230818_053811706](https://github.com/JackEverson/keyboard_project/assets/111256162/93093edd-ed33-4a6e-9015-d0f772b49094)
 
 This is a "2% Milk" keyboard that I made for my wife to control volume. The kit came from Custom KBD and can be found [here](https://customkbd.com/products/bongo-2?_pos=1&_ss=r). The microcontroller I used is a KB2040 (This has a RP2040 chip with the pinout and shape of an Arduino Pro Micro) from Core Electronics which can be found [here](https://core-electronics.com.au/adafruit-kb2040-rp2040-kee-boar-driver.html).
 
