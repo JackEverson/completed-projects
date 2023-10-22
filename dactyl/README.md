@@ -9,6 +9,5 @@ Currently I have a KMK file available in this directory (test_dactyl.py) which I
 
 3D print files are not mine, but can be found on Printables.com website [here](https://www.printables.com/model/60567-nano-dactyl-cc)
 
-![PXL_20230811_012804061](https://github.com/JackEverson/keyboard_project/assets/111256162/74c810be-3f5f-43fe-a280-75aad6772b44)
+![PXL_20230811_031307020](https://github.com/JackEverson/keyboard_project/assets/111256162/89ca7fa7-4073-4443-8f97-c022e7a966ef)
 
-![PXL_20230811_031307020](https://github.com/JackEverson/keyboard_project/assets/111256162/f8e7fca1-1bd1-4bdb-aeba-a5542ee8a8b8)
