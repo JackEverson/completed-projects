@@ -1,8 +1,10 @@
-# Redox keyboard - KMK
+# Redox keyboard 
 
 This is the first Redox keyboard I have made. The frame is made from 3d printed, PLA plastic parts. Wiring and soldering was done by hand (no PCB). The Microcontroller is a Raspberry Pi Pico running with Circuit Python and utilising the KMK keyboard library. This repo contains a directory labeled 'redox_code' which is stable working code for KMK. To copy my code it should be as simple as installing Circuit Python on your desired microcontroller and then copy and pasting the contents of the redox_code folder into your device (you may have to re-number the pins in the code depending on your wiring).
 
 This is the current keyboard:
+
+# NEW PHOTO HERE!!!!!!
 
 ![20230220_161814](https://user-images.githubusercontent.com/111256162/220501778-74e25547-a3d0-4bc1-a29b-1218343e7bb3.jpg)
 
@@ -14,7 +16,7 @@ Things I am looking to implement in the future are:
 -~~upgrading joining cable to be detachable~~ <br /> 
 
 
-## Making of Redox keyboard
+# Making of the first Redox keyboard
 03JAN2023
 
 ![20230103_204751](https://user-images.githubusercontent.com/111256162/220503882-4528c315-88ab-41f2-8e95-f55b3127dbc7.jpg)
@@ -52,3 +54,11 @@ I have Upgraded my redox keyboard to use HDMI ports rather than having the two h
 ![20230220_160447](https://user-images.githubusercontent.com/111256162/220503382-6880f13e-47a5-434c-afa3-49dfb4a7a784.jpg)
 
 ![20230220_144205](https://user-images.githubusercontent.com/111256162/220503397-c13c327d-92e7-412d-8077-c7b9815dcd3a.jpg)
+
+# Making of Redox keyboard with ZMK 
+
+
+
+
+
+

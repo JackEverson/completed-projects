@@ -34,6 +34,7 @@ _____ = KC.TRNS
 tog_lay1 = KC.MO(1)
 tog_lay2 = KC.MO(2)
 
+
 keyboard.keymap = [
     [#layer 0: Base layer
     KC.ESC,    KC.N1,      KC.N2,      KC.N3,      KC.N4,        KC.N5,     #              KC.GRAVE,                        KC.PGUP,    KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,      KC.MINUS,
@@ -49,6 +50,7 @@ keyboard.keymap = [
     KC.HT(KC.ENTER, tog_lay2),KC.SPACE, KC.TAB, KC.EQL, XXXXX,XXXXX,
     ],
 
+
     [#Layer 1: Motions
     KC.GRAVE,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,       #KC.F6,                          KC.F7,    KC.F8,      KC.F9,      KC.F10,     KC.F11,     KC.F12,      KC.MINUS,
 
@@ -62,6 +64,7 @@ keyboard.keymap = [
 
     XXXXX, KC.SPACE, KC.TAB, KC.EQL, XXXXX,XXXXX,
     ],
+
 
     [#Layer 2: numbers 
     KC.RLD,  KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5,    #   KC.F6,                          KC.F7,    KC.F8,      KC.F9,      KC.F10,     KC.F11,     KC.F12,      KC.MINUS,
@@ -92,8 +95,6 @@ keyboard.keymap = [
     ],
 
     ]
-
-
 
  
 if __name__ == '__main__':
