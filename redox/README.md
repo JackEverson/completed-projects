@@ -1,8 +1,9 @@
 # Redox keyboards
 
-# Current Redox Keyboard
+## Current Redox Keyboard
+![PXL_20230904_033319584](https://github.com/JackEverson/keyboard_project/assets/111256162/59cb05b1-1cc9-4994-9177-be4f7040e11d)
 
-# Original Redox Keyboard
+## Original Redox Keyboard
 ![20230220_161814](https://user-images.githubusercontent.com/111256162/220501778-74e25547-a3d0-4bc1-a29b-1218343e7bb3.jpg)
 
 
@@ -45,6 +46,7 @@ I upgraded my redox keyboard to use HDMI ports rather than having the two halves
 ![20230220_144205](https://user-images.githubusercontent.com/111256162/220503397-c13c327d-92e7-412d-8077-c7b9815dcd3a.jpg)
 
 # Making of Redox keyboard with ZMK 
+![PXL_20230904_033319584](https://github.com/JackEverson/keyboard_project/assets/111256162/d318978e-0ae8-47fe-8e7a-5ea898936258)
 
 With this new version of Redox keyboard I wanted to bring in a number of improvements to the design. Most notably I wanted:
 
@@ -53,6 +55,8 @@ With this new version of Redox keyboard I wanted to bring in a number of improve
 - Having the microcontroller removeable
 - A reset switch that can be pressed without having to open the keyboard case
 - Redox rev.1 design ([found here](https://www.thingiverse.com/thing:2886662))
+
+![PXL_20230830_013016724](https://github.com/JackEverson/keyboard_project/assets/111256162/641a1056-b061-4086-bc3f-4915f3a0267e)
 
 
 
