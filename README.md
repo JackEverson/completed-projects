@@ -1,6 +1,6 @@
 # Keyboard Project
 
-# ZMK REDOX Picture here!!!!
+![PXL_20230904_033319584](https://github.com/JackEverson/keyboard_project/assets/111256162/cfa21682-3c51-474e-93a3-cebcf698170b)
 
 This Repo contains the code and information about the keboards that I have made. My current daily driver is a Redox keyboard powerered by ZMK which can be seen above. A list of all the keboards I have worked on can be seen below:
 
